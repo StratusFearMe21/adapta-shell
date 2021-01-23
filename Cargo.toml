@@ -1,0 +1,15 @@
+[package]
+name = "adaptive_autocomplete"
+version = "0.1.0"
+authors = ["Isaac Mills <rooster0055@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "*"
+whoami = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+clap = "3.0.0-beta.2"
+structopt = "*"
