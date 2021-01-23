@@ -9,10 +9,8 @@
             "type": "python",
             "request": "launch",
             "args": [
-                "./python/edex.py", 
                 "apt-get",
-                "remove",
-                "anime",
+                "-h",
             ],
             "program": "${file}",
             "console": "integratedTerminal"
